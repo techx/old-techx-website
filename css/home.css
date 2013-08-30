@@ -1,0 +1,297 @@
+/* BASICS*/
+
+html, body, div, a {
+	margin:0;
+	padding: 0;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 300;
+	line-height: 1.5em;
+	text-decoration: none;
+	color:#1e1e1e;
+	-webkit-backface-visibility:hidden;
+}
+
+.section-front, .section-who, .section-what, .section-team, .section-join{
+	height: 750px;
+	width: 100%;
+	text-align: center;
+}
+
+
+.component-title{
+	font-size: 28px;
+	font-weight: 500;
+	text-align: center;
+	padding: 15px 50px 15px 50px;
+	color:#1f64c9;
+	margin-top:35px;
+	display: inline-block;
+	border-style: solid;
+	border-color: #1f64c9;
+	border-width: 2px;
+}
+
+/* NAV BAR */
+.nav{
+	width: 100%;
+	height: 50px;
+	padding-bottom: 20px;
+	background-color: #1e1e1e;
+	z-index:1000;
+	position:fixed;
+	list-style: none;
+}
+
+.nav ul{
+	list-style-type:none;
+	text-align: center;
+	margin-top: 1.5em;
+}
+.nav li{
+	display: inline;
+	padding: 5em;
+	text-align: center;
+}
+.nav li a{
+	font-weight: 100;
+	color: #f2f6f9;
+	opacity: 0.5;
+}
+.nav li a:hover{
+	color: #4382eb;
+}
+
+.component-logo img{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #f2f6f9;
+	margin-top: 250px;
+	width: 250px;
+	padding: 10 50px 10 50px;
+}
+.component-logo p{
+	font-size: 11px;
+	color: #f2f6f0;
+	opacity: 0.8;
+	font-weight: 100;
+	margin-top: -22;
+}
+
+/* Who Section */
+
+.section-who{
+	background-image: url('../img/tf-shot.png') ;
+	background-repeat: no-repeat;
+	min-width: 1280px;
+	background-size:100%;
+	max-width:100%;
+	position:relative;
+
+}
+
+.section-who .component-title{
+	padding: 20px 50px 20px 50px;
+	color:#1c51d4;
+	margin-top:30px;
+	display: inline-block;
+	border-style: solid;
+	border-color: #1c51d4;
+	border-width: 2px;
+	position:relative;
+}
+
+.section-who .component-content{
+	background-image: url('../img/transparent-light.png');
+	width: 100%;
+	height:500px;
+	margin: 30 0 0 0 ;
+	background-repeat: repeat;
+}
+
+.section-who .component-content .info{
+	font-size: 26px;
+	padding: 120px 10px 10px 10px;
+	line-height: 1.5em;
+	margin: 40px 200px 0 200px;
+	
+}
+
+.section-who .component-content .subinfo{
+	padding: 10px;
+	font-size:22px;
+	padding-top: 50px;
+	line-height: 1.5em;
+	margin: 0 200px 0 200px;
+	
+}
+
+.section-who .component-content .subinfo a{
+	color: #1f64c9;
+	font-weight: 300;
+}
+
+.section-who .component-content .subinfo a:hover{
+	opacity: 0.5;	
+}
+
+.section-who .component-content span{
+	color: #1f64c9;
+	font-weight: 500;
+}
+
+/* What Section */
+.section-what{
+	background-color: #f2f6f9;
+}
+.section-what .what-row{
+	max-width: 100%;
+	text-align: center;
+	margin: 80px 50px 0 50px;
+}
+
+.section-what .what-pic{
+	display: inline;
+	position: relative;
+	opacity: 0.8;
+	margin:0 20px 0 20px;
+}
+/*
+.seciton-what .what-pic img{
+	margin-left: 20px;
+	width: 150px;
+}*/
+
+.section-what .what-pic:hover{
+	opacity: 1;
+}
+
+.section-what .what-pic p{
+	display: inline;
+}
+
+/* Team Section*/
+
+.section-team{
+	background: -webkit-radial-gradient(circle, #1e1e1e, #1e1e1e);
+}
+.section-team .component-content{
+	margin-top: 40px;
+}
+.staff-row{
+	margin: 20px 50px 0 50px;
+	max-width: 100%;
+}
+.staff-pic{
+	display: inline;
+	width: 150px;
+	position: relative;
+	margin: 10px 10px 0 10px;
+}
+.staff-pic img{
+	max-width: 150px;
+}
+
+.section-team .overlay{
+	width:150px;
+	z-index: 100;
+	position:absolute;
+	height: 40px;
+	font-weight: 500;
+	background-color: #4382eb;
+	opacity: 0.9;
+	top:-35px;
+	text-align: right;
+	display: none;
+	line-height: 1.2em;
+}
+
+/* Join Section*/
+.section-join{
+	color:#f2f6f9;
+	height: 900px;
+}
+.section-join, .copyright{
+	background-color:#1f64c9;
+	opacity: 0.9;
+
+}
+.section-join .component-title{
+	border-color: #f2f6f9;
+	color: #f2f6f9;
+}
+
+.section-join .join-blurb{
+	font-size: 18px;
+	max-width: 500px;
+	margin: 0 auto;
+	color:#b9e1f9;
+	margin-top: 40px;
+}
+.section-join table{
+	margin:0 auto;
+	margin-top: 50px;
+}
+.section-join td{
+	border-spacing: 20px;
+	border-collapse : separate;
+	font-size: 22px;
+
+}
+
+.section-join .apply{
+	padding:100px;
+	font-size: 36px;
+	color: #f2f6f9;
+}
+.section-join .tile{
+	font-size: 14px;
+	padding:15px;
+	height: 200px;
+	margin:0 auto;
+	width: 200px;
+	color: #f2f6f9;
+	vertical-align: middle;
+	/*background-color: #1e1e1e;*/
+}
+.section-join .committee-content{
+	font-size: 12px;
+	display: none;
+	vertical-align: center;
+}
+
+.section-join .apply-info{
+	color:#f2f6f9;
+}
+/* FOOTER*/
+.copyright{
+	font-weight: 100;
+	text-align: center;
+	font-size: 12px;
+	height: 50px;
+	color:#f2f6f9;
+} 
+
+/* Front Section */
+.section-front{
+	background-color: #2F2727;
+	background-image: url(images/radial_bg.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+
+	/* Safari 4-5, Chrome 1-9 */
+	/* Can't specify a percentage size? Laaaaaame. */
+	background: -webkit-gradient(radial, center center, 0, center center, 460, from(#484848), to(#1e1e1e));
+
+	/* Safari 5.1+, Chrome 10+ */
+	background: -webkit-radial-gradient(circle, #1e1e1e, #1e1e1e);
+
+	/* Firefox 3.6+ */
+	background: -moz-radial-gradient(circle,  #484848, #1e1e1e);
+
+	/* IE 10 */
+	background: -ms-radial-gradient(circle,  #484848, #1e1e1e;
+
+}
+
+
