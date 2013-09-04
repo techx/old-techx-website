@@ -4,7 +4,6 @@ $(function() {
     $('.nav ul a').bind('click',function(e){
         e.preventDefault();
          var $anchor = $(this);
- 
         $('html, body').stop().animate({
             scrollTop: $($anchor.attr('href')).offset().top-60
         }, 500,'swing');
