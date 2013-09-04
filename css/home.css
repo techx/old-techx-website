@@ -33,7 +33,7 @@ html, body, div, a {
 }
 
 /* NAV BAR */
-.nav{
+.nav, .nav-back{
 	width: 100%;
 	height: 50px;
 	padding-bottom: 20px;
@@ -43,22 +43,22 @@ html, body, div, a {
 	list-style: none;
 }
 
-.nav ul{
+.nav ul, .nav-back ul{
 	list-style-type:none;
 	text-align: center;
 	margin-top: 1.5em;
 }
-.nav li{
+.nav li, .nav-back li{
 	display: inline;
 	padding: 5em;
 	text-align: center;
 }
-.nav li a{
+.nav li a, .nav-back li a{
 	font-weight: 100;
 	color: #f2f6f9;
 	opacity: 0.5;
 }
-.nav li a:hover{
+.nav li a:hover, .nav-back li a:hover{
 	color: #4382eb;
 }
 
@@ -68,7 +68,7 @@ html, body, div, a {
 	border-color: #f2f6f9;
 	margin-top: 250px;
 	width: 250px;
-	padding: 10 50px 10 50px;
+	padding: 15px 50px 15px 50px;
 }
 .component-logo p{
 	font-size: 11px;
@@ -77,6 +77,12 @@ html, body, div, a {
 	font-weight: 100;
 	margin-top: -22;
 }
+
+/*Front*/
+.section-front{
+	background-color: #1e1e1e;
+}
+
 
 /* Who Section */
 
@@ -285,26 +291,13 @@ html, body, div, a {
 	opacity:0.7;
 }
 
-/* Front Section */
-.section-front{
-	background-color: #2F2727;
-	background-image: url(images/radial_bg.png);
-	background-position: center center;
-	background-repeat: no-repeat;
 
-	/* Safari 4-5, Chrome 1-9 */
-	/* Can't specify a percentage size? Laaaaaame. */
-	background: -webkit-gradient(radial, center center, 0, center center, 460, from(#484848), to(#1e1e1e));
+/*SR Page*/
 
-	/* Safari 5.1+, Chrome 10+ */
-	background: -webkit-radial-gradient(circle, #1e1e1e, #1e1e1e);
-
-	/* Firefox 3.6+ */
-	background: -moz-radial-gradient(circle,  #484848, #1e1e1e);
-
-	/* IE 10 */
-	background: -ms-radial-gradient(circle,  #484848, #1e1e1e;
-
+.sr{
+	height:800px;
 }
+
+
 
 
