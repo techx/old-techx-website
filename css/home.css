@@ -247,6 +247,7 @@ html, body, div, a {
 	width: 200px;
 	color: #f2f6f9;
 	vertical-align: middle;
+	cursor:pointer;
 	/*background-color: #1e1e1e;*/
 }
 .section-join .committee-content{
