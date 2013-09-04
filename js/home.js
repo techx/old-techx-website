@@ -1,7 +1,8 @@
 $(document).load().scrollTop(0);
 
 $(function() {
-    $('.nav ul a').bind('click',function(event){
+    $('.nav ul a').bind('click',function(e){
+        e.preventDefault();
          var $anchor = $(this);
  
         $('html, body').stop().animate({
