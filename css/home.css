@@ -33,7 +33,7 @@ html, body, div, a {
 }
 
 /* NAV BAR */
-.nav, .nav-back{
+.nav, .nav-back, .page-title{
 	width: 100%;
 	height: 50px;
 	padding-bottom: 20px;
@@ -298,6 +298,13 @@ html, body, div, a {
 	height:800px;
 }
 
+.page-title{
+	font-size: 22px;
+	color:#F2f6f9;
+	margin: 0 auto;
+	text-align: center;
+	letter-spacing: 4px;
+}
 
 
 
