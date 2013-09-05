@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /*
  * SimpleModal 1.4.4 - jQuery Plugin
  * http://simplemodal.com/

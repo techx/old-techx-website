@@ -296,6 +296,11 @@ html, body, div, a {
 
 .sr{
 	height:800px;
+	/*background-image: url('../img/sr-background.png') ;
+	background-repeat: no-repeat;*/
+	min-width: 1280px;
+	background-size:100%;
+	max-width:100%;
 }
 
 .page-title{
@@ -306,5 +311,16 @@ html, body, div, a {
 	letter-spacing: 4px;
 }
 
+.sr-apply{
+	font-size:30px;
+	color:#1e1e1e;
+	margin-top: 200px;
+	/*z-index: 200;
+	position: fixed;*/
+}
+.sr .copyright{
+	position:absolute;
+	bottom:0;
+}
 
 
