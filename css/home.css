@@ -257,6 +257,11 @@ html, body, div, a {
 	cursor:pointer;
 	/*background-color: #1e1e1e;*/
 }
+.section-join .tile:hover{
+	-moz-box-shadow: 0 0 5px rgba(0,0,0,0.7);
+	-webkit-box-shadow: 0 0 5px rgba(0,0,0,0.7);
+	box-shadow: 0 0 5px rgba(0,0,0,0.7);
+}
 .section-join .committee-content{
 	font-size: 12px;
 	display: none;
