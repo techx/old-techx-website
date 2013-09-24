@@ -211,7 +211,7 @@ html, body, div, a {
 /* Join Section*/
 .section-join{
 	color:#f2f6f9;
-	height: 1100px;
+	height: 1000px;
 }
 .section-join, .copyright{
 	background-color:#1f64c9;
@@ -243,7 +243,8 @@ html, body, div, a {
 
 .section-join .apply{
 	padding:100px;
-	font-size: 36px;
+	opacity: 0.8;
+	font-size: 22px;
 	color: #f2f6f9;
 }
 .section-join .tile{
