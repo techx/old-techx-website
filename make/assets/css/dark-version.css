@@ -1,0 +1,179 @@
+/* ----------------------------------------------------------------------------
+   # Created by: ThemeShifters
+   # Date: June 27, 2013
+   # Website: http://themeshifters.com
+   # Dark Stylesheet for Omni HTML Theme that is being sold on ThemeForest
+   ---------------------------------------------------------------------------- */
+
+/*	==================================================
+	# Form
+	================================================== */
+	textarea, 
+	input[type="text"], 
+	input[type="password"], 
+	input[type="datetime"], 
+	input[type="datetime-local"], 
+	input[type="date"],
+	input[type="month"],
+	input[type="time"],
+	input[type="week"],
+	input[type="number"],
+	input[type="email"],
+	input[type="url"],
+	input[type="search"],
+	input[type="tel"],
+	input[type="color"],
+	.uneditable-input {
+		background: #2e2f2f;
+		color: #868686;
+	}
+	textarea:focus, 
+	input[type="text"]:focus,
+	input[type="password"]:focus,
+	input[type="datetime"]:focus,
+	input[type="datetime-local"]:focus,
+	input[type="date"]:focus,
+	input[type="month"]:focus,
+	input[type="time"]:focus,
+	input[type="week"]:focus,
+	input[type="number"]:focus,
+	input[type="email"]:focus,
+	input[type="url"]:focus,
+	input[type="search"]:focus,
+	input[type="tel"]:focus,
+	input[type="color"]:focus,
+	.uneditable-input:focus {
+		border-color: #313131;
+		background: #313131;
+	}
+
+/*	==================================================
+	# Layout
+	================================================== */
+	.page-type {
+		background: #292929;
+	}
+	.light-bg {
+		/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+		background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPHJhZGlhbEdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjUwJSIgY3k9IjUwJSIgcj0iNzUlIj4KICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMC42Ii8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMCIvPgogIDwvcmFkaWFsR3JhZGllbnQ+CiAgPHJlY3QgeD0iLTUwIiB5PSItNTAiIHdpZHRoPSIxMDEiIGhlaWdodD0iMTAxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=)!important;
+		background: -moz-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.6) 0%, rgba(255,255,255,0) 100%)!important; /* FF3.6+ */
+		background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,255,255,0.6)), color-stop(100%,rgba(255,255,255,0)))!important; /* Chrome,Safari4+ */
+		background: -webkit-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.6) 0%,rgba(255,255,255,0) 100%)!important; /* Chrome10+,Safari5.1+ */
+		background: -o-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.6) 0%,rgba(255,255,255,0) 100%)!important; /* Opera 12+ */
+		background: -ms-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.6) 0%,rgba(255,255,255,0) 100%)!important; /* IE10+ */
+		background: radial-gradient(ellipse at center,  rgba(255,255,255,0.6) 0%,rgba(255,255,255,0) 100%)!important; /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99ffffff', endColorstr='#00ffffff',GradientType=1 )!important; /* IE6-8 fallback on horizontal gradient */
+	}
+	.green-bg {
+		background-color: #7ecdd7!important;
+	}
+	.dark-bg {
+		background-color: #2e2f2f;
+	}
+	
+	#intro,
+	#team {
+		background: #2e2f2f;
+	}
+	#testimonials {
+		background: #292929!important;
+	}
+	#clients {
+		background: #f1f0f5;
+	}
+	#services {
+		background: inherit;
+	}
+
+/*	==================================================
+	# Bottom Arrows
+	================================================== */
+	.bottom-arrow:after,
+	#testimonials.bottom-arrow:after {
+		border-top-color: #292929;
+	}
+	.green-bg.bottom-arrow:after {
+		border-top-color: #7ecdd7;
+	}
+	#intro.bottom-arrow:after,
+	.dark-bg.bottom-arrow:after {
+		border-top-color: #2e2f2f;
+	}
+	#about.bottom-arrow:after,
+	#portfolio.bottom-arrow:after,
+	#pricing.bottom-arrow:after,
+	#contact.bottom-arrow:after {
+		border-top-color: #292929;
+	}
+	.green-bg.light-bg.bottom-arrow:after {
+		border-top-color: #2dc7b5;
+	}
+	#team.bottom-arrow:after {
+		border-top-color: #2e2f2f;
+	}
+	#clients.bottom-arrow:after {
+		border-top-color: #f1f0f5;
+	}
+	#blog.bottom-arrow:after {
+		border-top-color: #8a8a8a;
+	}
+
+/*	==================================================
+	# Portfolio
+	================================================== */
+	.portfolio .item-icons a,
+	.tiled-items .item-icons a {
+		border-color: #292929;
+		color: #292929;
+	}
+	.portfolio .item-icons a:hover,
+	.tiled-items .item-icons a:hover {
+		background: #292929;
+	}
+
+/*	==================================================
+	# Profile
+	================================================== */
+	.profile {
+		background: #2e2f2f;
+	}
+	#team .profile {
+		background: #292929;
+	}
+	.profile-name {
+		color: #fff;
+	}
+	
+	.price-package:hover {
+		border-color: #292929;
+	}
+
+/*	==================================================
+	# Block
+	================================================== */
+	.block [class^="icon-"],
+	.block [class*=" icon-"] {
+		color: #7ecdd7;
+	}
+
+/*	==================================================
+	# Blog
+	================================================== */
+	.blog-post {
+		background: #292929;
+	}
+
+/*	==================================================
+	# Sidebar
+	================================================== */		
+	.widget {
+		background: #292929;
+	}
+
+/*	==================================================
+	# Newsletter
+	================================================== */
+	.newsletter button {
+		border-left-color: #2e2f2f;
+		background: #2e2f2f;
+	}
