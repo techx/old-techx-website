@@ -29,7 +29,7 @@ html, body, div, a {
 	display: inline-block;
 	border-style: solid;
 	border-color: #1f64c9;
-	border-width: 2px;
+	border-width: 0px;
 }
 
 /* NAV BAR */
