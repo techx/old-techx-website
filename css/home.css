@@ -223,12 +223,25 @@ html, body, div, a {
 	color: #f2f6f9;
 }
 
-.section-join .join-blurb{
+.section-join .join-blurb, .apply-blurb{
 	font-size: 18px;
-	max-width: 500px;
+	max-width: 600px;
 	margin: 0 auto;
 	color:#b9e1f9;
 	margin-top: 40px;
+}
+.apply-blurb a{
+	color: #ffffff;
+}
+.apply-blurb a:hover{
+	color: #b9e1f9;
+}
+.apply-blurb b{
+	font-weight: 500;
+}
+.apply-blurb b:hover{
+	font-weight: 500;
+	color: #ffffff;
 }
 .section-join table{
 	margin:0 auto;
